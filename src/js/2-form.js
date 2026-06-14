@@ -28,7 +28,7 @@ function onUserSubmit(event) {
     formEl.elements.email.value.trim() === '' ||
     formEl.elements.message.value.trim() === ''
   ) {
-    console.log('Fill please all fields');
+    alert('Fill please all fields');
     return;
   }
   console.log(formData);
